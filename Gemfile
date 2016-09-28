@@ -17,6 +17,10 @@ end
 
 gem 'jquery-rails', '2.0.2'
 
+gem 'bcrypt-ruby', '3.0.1'
+group :development do
+  gem 'annotate', '2.5.0'
+end
 group :test do
   gem 'capybara', '1.1.2'
 end
